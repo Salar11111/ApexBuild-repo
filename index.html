@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Apex Build Co. — General contractors delivering commercial, residential, and industrial construction with craftsmanship, transparency, and on-time discipline." />
+  <title>Apex Build Co. — Building What's Next</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============== TOP BAR ============== -->
+<div class="topbar">
+  <div class="container topbar__row">
+    <span>📍 1840 Industrial Pkwy, Suite 200</span>
+    <span class="topbar__sep">·</span>
+    <span>Mon–Fri 7:00–17:00</span>
+    <span class="topbar__sep">·</span>
+    <a href="tel:+15558901234">(555) 890-1234</a>
+  </div>
+</div>
+
+<!-- ============== NAV ============== -->
+<header class="nav" id="nav">
+  <div class="container nav__row">
+    <a href="#home" class="logo">
+      <span class="logo__mark">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <path d="M3 24L14 4l11 20H3z" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+          <path d="M9 24V16h10v8" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <span class="logo__text">
+        <strong>APEX</strong> <em>BUILD CO.</em>
+      </span>
+    </a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#process">Process</a>
+      <a href="#testimonials">Clients</a>
+      <a href="#contact" class="btn btn--primary btn--sm">Start a Project</a>
+    </nav>
+
+    <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============== HERO ============== -->
+<section class="hero" id="home" style="background-image: url('assets/img/hero.jpg');">
+  <div class="hero__overlay"></div>
+  <div class="container hero__inner">
+    <span class="eyebrow eyebrow--light">Building Excellence Since 1987</span>
+    <h1 class="hero__title">
+      We Build <span class="accent">What's Next.</span>
+    </h1>
+    <p class="hero__sub">
+      Apex Build Co. is a full-service general contractor delivering commercial,
+      residential, and industrial projects with the craftsmanship, transparency,
+      and on-time discipline you can build a future on.
+    </p>
+    <div class="hero__cta">
+      <a href="#contact" class="btn btn--primary btn--lg">Start a Project</a>
+      <a href="#projects" class="btn btn--ghost btn--lg">View Our Work →</a>
+    </div>
+  </div>
+
+  <a href="#stats" class="hero__scroll" aria-label="Scroll down">
+    <span></span>
+  </a>
+</section>
+
+<!-- ============== STATS BAR ============== -->
+<section class="stats" id="stats">
+  <div class="container stats__grid">
+    <div class="stat">
+      <div class="stat__num" data-count="37">0</div>
+      <div class="stat__lbl">Years of Experience</div>
+    </div>
+    <div class="stat">
+      <div class="stat__num" data-count="480" data-suffix="+">0</div>
+      <div class="stat__lbl">Projects Delivered</div>
+    </div>
+    <div class="stat">
+      <div class="stat__num" data-count="92" data-suffix="%">0</div>
+      <div class="stat__lbl">Repeat / Referral Clients</div>
+    </div>
+    <div class="stat">
+      <div class="stat__num" data-count="1.2" data-prefix="$" data-suffix="B">0</div>
+      <div class="stat__lbl">Total Build Value</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== ABOUT ============== -->
+<section class="about" id="about">
+  <div class="container about__grid">
+    <div class="about__media reveal">
+      <img src="assets/img/about.jpg" alt="Apex Build project managers reviewing plans on-site" />
+      <div class="about__badge">
+        <div class="about__badge-num">37+</div>
+        <div class="about__badge-lbl">Years<br/>Building</div>
+      </div>
+    </div>
+
+    <div class="about__text reveal">
+      <span class="eyebrow">About Apex</span>
+      <h2 class="section-title">
+        Craftsmanship that <em>earns trust.</em>
+      </h2>
+      <p>
+        Family-founded in 1987, Apex Build Co. has grown into one of the region's
+        most respected general contractors — but the way we work hasn't changed.
+        Every project gets a single point of contact. Every schedule gets a real
+        plan. Every budget gets respected down to the last line item.
+      </p>
+      <p>
+        We staff our own crews, self-perform critical scopes, and partner with the
+        same trusted trades we've known for decades. The result is fewer surprises,
+        cleaner sites, and buildings that stand the test of time.
+      </p>
+
+      <ul class="about__list">
+        <li><span>✓</span> Licensed, bonded & insured in 12 states</li>
+        <li><span>✓</span> OSHA-certified safety program, EMR 0.62</li>
+        <li><span>✓</span> In-house engineering & VDC / BIM</li>
+        <li><span>✓</span> LEED Accredited Professionals on staff</li>
+      </ul>
+
+      <a href="#process" class="btn btn--outline">How We Work</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============== SERVICES ============== -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">What We Do</span>
+      <h2 class="section-title">Full-scope construction, <em>end to end.</em></h2>
+      <p class="section-sub">
+        From the first feasibility sketch to the final punch list — and every
+        subcontractor, permit, and schedule in between.
+      </p>
+    </div>
+
+    <div class="services__grid">
+      <article class="service reveal">
+        <div class="service__icon">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M4 28h24M6 28V14l10-8 10 8v14M12 28v-8h8v8" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>General Contracting</h3>
+        <p>Hard-bid, cost-plus, and GMP delivery for projects from $500K to $200M.</p>
+      </article>
+
+      <article class="service reveal">
+        <div class="service__icon">
+          <svg viewBox="0 0 32 32" fill="none"><rect x="4" y="6" width="24" height="20" rx="1" stroke="currentColor" stroke-width="2"/><path d="M4 12h24M10 18h6M10 22h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Pre-Construction Planning</h3>
+        <p>Estimating, scheduling, value engineering, and constructability review before shovels hit dirt.</p>
+      </article>
+
+      <article class="service reveal">
+        <div class="service__icon">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M5 27L27 5M9 23l-4 4M23 9l4-4M14 18l-4-4M18 14l4 4" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Design-Build</h3>
+        <p>One contract, one team — design and construction under one roof for faster, leaner delivery.</p>
+      </article>
+
+      <article class="service reveal">
+        <div class="service__icon">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M4 28V12l12-8 12 8v16M10 28V20h12v8" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M16 4v6" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3>Commercial Construction</h3>
+        <p>Office, retail, hospitality, and mixed-use — Class A interiors and ground-up builds.</p>
+      </article>
+
+      <article class="service reveal">
+        <div class="service__icon">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M3 14L16 4l13 10v14H3V14z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M11 28v-8h10v8M16 8v6" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3>Residential & Custom Homes</h3>
+        <p>Luxury single-family estates, multi-family developments, and bespoke renovations.</p>
+      </article>
+
+      <article class="service reveal">
+        <div class="service__icon">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M4 28V8h10l4 4h10v16H4zM4 16h24" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Renovations & Build-Outs</h3>
+        <p>Tenant improvements, adaptive reuse, and occupied-space renovations delivered on tight timelines.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============== PROJECTS ============== -->
+<section class="projects" id="projects">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Selected Work</span>
+      <h2 class="section-title">Projects we're <em>proud of.</em></h2>
+      <p class="section-sub">A small cross-section of recent deliveries across our commercial, residential, and industrial divisions.</p>
+    </div>
+
+    <div class="filters reveal" id="filters">
+      <button class="filter is-active" data-filter="all">All Work</button>
+      <button class="filter" data-filter="commercial">Commercial</button>
+      <button class="filter" data-filter="residential">Residential</button>
+      <button class="filter" data-filter="industrial">Industrial</button>
+    </div>
+
+    <div class="projects__grid" id="projectsGrid">
+      <a class="project project--tall reveal" data-cat="commercial" href="#contact">
+        <img src="assets/img/project-commercial-1.jpg" alt="Steel frame construction with crane" />
+        <div class="project__body">
+          <span class="tag">Commercial</span>
+          <h3>Harbor Point Pavilion</h3>
+          <p>Mixed-use waterfront · 86,000 sq ft · $22M</p>
+        </div>
+      </a>
+
+      <a class="project reveal" data-cat="residential" href="#contact">
+        <img src="assets/img/project-residential-1.jpg" alt="Custom luxury kitchen interior" />
+        <div class="project__body">
+          <span class="tag">Residential</span>
+          <h3>The Westridge Residences</h3>
+          <p>Custom estate · 8,400 sq ft · $4.2M</p>
+        </div>
+      </a>
+
+      <a class="project reveal" data-cat="industrial" href="#contact">
+        <img src="assets/img/project-industrial-3.jpg" alt="Industrial warehouse exterior" />
+        <div class="project__body">
+          <span class="tag">Industrial</span>
+          <h3>Halcyon Logistics Hub</h3>
+          <p>Distribution center · 480,000 sq ft · $48M</p>
+        </div>
+      </a>
+
+      <a class="project reveal" data-cat="industrial" href="#contact">
+        <img src="assets/img/project-industrial-2.jpg" alt="Warehouse interior" />
+        <div class="project__body">
+          <span class="tag">Industrial</span>
+          <h3>Northgate Manufacturing</h3>
+          <p>Clean mfg facility · 240,000 sq ft · $31M</p>
+        </div>
+      </a>
+
+      <a class="project project--wide reveal" data-cat="commercial" href="#contact">
+        <img src="assets/img/project-industrial-1.jpg" alt="Aerial view of large commercial facility" />
+        <div class="project__body">
+          <span class="tag">Commercial</span>
+          <h3>Meridian Office Tower</h3>
+          <p>Class A office · 22 stories · 410,000 sq ft · $96M</p>
+        </div>
+      </a>
+
+      <a class="project reveal" data-cat="commercial" href="#contact">
+        <img src="assets/img/project-commercial-2.jpg" alt="Steel structure construction site" />
+        <div class="project__body">
+          <span class="tag">Commercial</span>
+          <h3>The Foundry Works</h3>
+          <p>Adaptive reuse · 65,000 sq ft · $12M</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="projects__more reveal">
+      <a href="#contact" class="btn btn--outline">Discuss Your Project →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============== PROCESS ============== -->
+<section class="process" id="process">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">How We Work</span>
+      <h2 class="section-title section-title--light">A process built for <em>no surprises.</em></h2>
+      <p class="section-sub section-sub--light">
+        Most construction horror stories start with "we didn't know." We don't allow that sentence.
+      </p>
+    </div>
+
+    <ol class="process__grid">
+      <li class="step reveal">
+        <div class="step__num">01</div>
+        <h3>Discovery & Vision</h3>
+        <p>We meet on-site, listen to your goals, and translate them into a clear scope, budget, and timeline envelope.</p>
+      </li>
+      <li class="step reveal">
+        <div class="step__num">02</div>
+        <h3>Pre-Construction & Design</h3>
+        <p>Estimating, value engineering, and constructability review — so the design is buildable, and the budget is real.</p>
+      </li>
+      <li class="step reveal">
+        <div class="step__num">03</div>
+        <h3>Build & Quality Control</h3>
+        <p>Our crews self-perform critical scopes. Daily logs, weekly owner meetings, and zero tolerance for "we'll fix it later."</p>
+      </li>
+      <li class="step reveal">
+        <div class="step__num">04</div>
+        <h3>Handover & Support</h3>
+        <p>Substantial completion, full as-built documentation, and a 12-month warranty walk-through. We don't disappear.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============== TESTIMONIALS ============== -->
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">What Clients Say</span>
+      <h2 class="section-title">Built on relationships, <em>not just buildings.</em></h2>
+    </div>
+
+    <div class="testimonials__grid">
+      <figure class="quote reveal">
+        <div class="quote__stars">★★★★★</div>
+        <blockquote>
+          "Apex didn't just build our new HQ — they made the entire process
+          feel calm. Schedules held, change orders were clean, and the craftsmanship
+          is genuinely a step above."
+        </blockquote>
+        <figcaption>
+          <strong>Sarah Chen</strong><br/>
+          <span>COO, Helix Technologies</span>
+        </figcaption>
+      </figure>
+
+      <figure class="quote reveal">
+        <div class="quote__stars">★★★★★</div>
+        <blockquote>
+          "We've worked with a dozen GCs in twenty years. Apex is the only one
+          that's come in on budget, on time, and with no finger-pointing. They're
+          now our default contractor across the portfolio."
+        </blockquote>
+        <figcaption>
+          <strong>David Okonkwo</strong><br/>
+          <span>Director of Facilities, Westgate Capital</span>
+        </figcaption>
+      </figure>
+
+      <figure class="quote reveal">
+        <div class="quote__stars">★★★★★</div>
+        <blockquote>
+          "Building a custom home is emotional. The Apex team treated ours like
+          it was their own — patient with changes, honest about tradeoffs, and
+          relentless on the details. We love coming home to it."
+        </blockquote>
+        <figcaption>
+          <strong>Marisol & James Hartwell</strong><br/>
+          <span>Custom Home Clients</span>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============== CTA BANNER ============== -->
+<section class="cta-banner">
+  <div class="container cta-banner__inner">
+    <div class="reveal">
+      <h2>Ready to break ground?</h2>
+      <p>
+        Tell us what you're building. We'll meet you on-site, walk the project,
+        and give you an honest number within 14 days.
+      </p>
+    </div>
+    <div class="cta-banner__btns reveal">
+      <a href="#contact" class="btn btn--primary btn--lg">Request a Consultation</a>
+      <a href="tel:+15558901234" class="btn btn--ghost btn--lg">Call (555) 890-1234</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============== CONTACT ============== -->
+<section class="contact" id="contact">
+  <div class="container contact__grid">
+    <div class="contact__info reveal">
+      <span class="eyebrow">Get In Touch</span>
+      <h2 class="section-title">Let's <em>talk.</em></h2>
+      <p class="contact__intro">
+        Whether you've got a fully designed project or just a napkin sketch —
+        the sooner we talk, the more value we can bring. Reach out the way that
+        works for you.
+      </p>
+
+      <ul class="contact__list">
+        <li>
+          <div class="contact__ico">📍</div>
+          <div>
+            <strong>Headquarters</strong><br/>
+            1840 Industrial Pkwy, Suite 200<br/>
+            Portland, OR 97203
+          </div>
+        </li>
+        <li>
+          <div class="contact__ico">📞</div>
+          <div>
+            <strong>Phone</strong><br/>
+            <a href="tel:+15558901234">(555) 890-1234</a>
+          </div>
+        </li>
+        <li>
+          <div class="contact__ico">✉️</div>
+          <div>
+            <strong>Email</strong><br/>
+            <a href="mailto:hello@apexbuild.co">hello@apexbuild.co</a>
+          </div>
+        </li>
+        <li>
+          <div class="contact__ico">🕒</div>
+          <div>
+            <strong>Hours</strong><br/>
+            Mon–Fri 7:00–17:00 PT<br/>
+            24/7 emergency service for existing clients
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <form class="contact__form reveal" id="contactForm" novalidate>
+      <h3>Request a Consultation</h3>
+
+      <div class="field">
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="field">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" />
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="type">Project Type *</label>
+        <select id="type" name="type" required>
+          <option value="">Select a project type…</option>
+          <option>Commercial Construction</option>
+          <option>Residential / Custom Home</option>
+          <option>Industrial / Warehouse</option>
+          <option>Renovation / Build-Out</option>
+          <option>Design-Build</option>
+          <option>Pre-Construction Consulting</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="budget">Estimated Budget</label>
+        <select id="budget" name="budget">
+          <option value="">Select…</option>
+          <option>Under $500K</option>
+          <option>$500K – $2M</option>
+          <option>$2M – $10M</option>
+          <option>$10M – $50M</option>
+          <option>$50M+</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="message">Tell us about your project *</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn--primary btn--lg btn--block">Send Request →</button>
+      <p class="form-note">We respond to every inquiry within one business day.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ============== FOOTER ============== -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <a href="#home" class="logo logo--light">
+        <span class="logo__mark">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <path d="M3 24L14 4l11 20H3z" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+            <path d="M9 24V16h10v8" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="logo__text"><strong>APEX</strong> <em>BUILD CO.</em></span>
+      </a>
+      <p>
+        Family-founded general contractors building commercial, residential,
+        and industrial projects across the Pacific Northwest since 1987.
+      </p>
+      <div class="footer__socials">
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="#" aria-label="Instagram">ig</a>
+        <a href="#" aria-label="Facebook">fb</a>
+        <a href="#" aria-label="YouTube">yt</a>
+      </div>
+    </div>
+
+    <div class="footer__col">
+      <h4>Company</h4>
+      <a href="#about">About</a>
+      <a href="#process">Our Process</a>
+      <a href="#testimonials">Clients</a>
+      <a href="#">Careers</a>
+      <a href="#">Press</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Services</h4>
+      <a href="#services">General Contracting</a>
+      <a href="#services">Design-Build</a>
+      <a href="#services">Pre-Construction</a>
+      <a href="#services">Commercial</a>
+      <a href="#services">Residential</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Contact</h4>
+      <a href="tel:+15558901234">(555) 890-1234</a>
+      <a href="mailto:hello@apexbuild.co">hello@apexbuild.co</a>
+      <span>1840 Industrial Pkwy<br/>Portland, OR 97203</span>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <div class="container footer__bottom-row">
+      <span>© 2026 Apex Build Co. All rights reserved.</span>
+      <span>Licensed · Bonded · Insured · CCB #123456</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
