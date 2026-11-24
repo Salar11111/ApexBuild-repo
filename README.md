@@ -31,6 +31,12 @@ There is no framework and no build step. Everything the page does — the sticky
 
 ---
 
+## 📸 Screenshots
+
+![Apex Build Co. landing page](docs/screenshots/home.jpg)
+
+---
+
 ## 🚀 View it
 
 Open `index.html` in a browser.
