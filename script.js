@@ -59,11 +59,17 @@
      4. STAT COUNTER — animate when in view
      --------------------------------------------------- */
   const stats = document.querySelectorAll('.stat__num');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const animateStat = (el) => {
     const target   = parseFloat(el.dataset.count || '0');
     const prefix   = el.dataset.prefix || '';
     const suffix   = el.dataset.suffix || '';
     const isFloat  = !Number.isInteger(target);
+    const finalText = `${prefix}${isFloat ? target.toFixed(1) : target.toLocaleString()}${suffix}`;
+    if (reduceMotion) {
+      el.textContent = finalText;
+      return;
+    }
     const duration = 1800;
     const startTs  = performance.now();
 
