@@ -7,7 +7,7 @@
   <title>Apex Build Co. — Building What's Next</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -53,28 +53,27 @@
   </div>
 </header>
 
-<!-- ============== HERO ============== -->
-<section class="hero" id="home" style="background-image: url('assets/img/hero.jpg');">
-  <div class="hero__overlay"></div>
+<!-- ============== HERO — flat editorial ============== -->
+<section class="hero" id="home">
   <div class="container hero__inner">
-    <span class="eyebrow eyebrow--light">Building Excellence Since 1987</span>
-    <h1 class="hero__title">
-      We Build <span class="accent">What's Next.</span>
-    </h1>
-    <p class="hero__sub">
-      Apex Build Co. is a full-service general contractor delivering commercial,
-      residential, and industrial projects with the craftsmanship, transparency,
-      and on-time discipline you can build a future on.
-    </p>
-    <div class="hero__cta">
-      <a href="#contact" class="btn btn--primary btn--lg">Start a Project</a>
-      <a href="#projects" class="btn btn--ghost btn--lg">View Our Work →</a>
+    <div class="hero__copy">
+      <span class="eyebrow">Building Excellence Since 1987</span>
+      <h1 class="hero__title">We Build What's Next.</h1>
+      <p class="hero__sub">
+        Apex Build Co. is a full-service general contractor delivering commercial,
+        residential, and industrial projects with the craftsmanship, transparency,
+        and on-time discipline you can build a future on.
+      </p>
+      <div class="hero__cta">
+        <a href="#contact" class="btn btn--primary btn--lg">Start a Project</a>
+        <a href="#projects" class="btn btn--ghost btn--lg">View Our Work →</a>
+      </div>
     </div>
-  </div>
 
-  <a href="#stats" class="hero__scroll" aria-label="Scroll down">
-    <span></span>
-  </a>
+    <figure class="hero__media">
+      <img src="assets/img/hero.jpg" alt="High-rise construction site with tower cranes at dusk" />
+    </figure>
+  </div>
 </section>
 
 <!-- ============== STATS BAR ============== -->
@@ -220,7 +219,7 @@
     </div>
 
     <div class="projects__grid" id="projectsGrid">
-      <a class="project project--tall reveal" data-cat="commercial" href="#contact">
+      <a class="project reveal" data-cat="commercial" href="#contact">
         <img src="assets/img/project-commercial-1.jpg" alt="Steel frame construction with crane" />
         <div class="project__body">
           <span class="tag">Commercial</span>
@@ -256,7 +255,7 @@
         </div>
       </a>
 
-      <a class="project project--wide reveal" data-cat="commercial" href="#contact">
+      <a class="project reveal" data-cat="commercial" href="#contact">
         <img src="assets/img/project-industrial-1.jpg" alt="Aerial view of large commercial facility" />
         <div class="project__body">
           <span class="tag">Commercial</span>
